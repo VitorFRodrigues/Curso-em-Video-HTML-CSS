@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'font-android';
+    src: url('./fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to top,#1A5C38, #84E1AD);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+header > nav {
+    text-align: left;
+}
+
+header > nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: #84E1AD;
+}
+
+main {
+    background-color: white;
+    margin: 0px 50px 20px 50px;
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 5px;
+
+}
+
+main > section > h1 {
+    font-family: 'font-android', Arial, Helvetica, sans-serif;
+    color: #1A5C38;
+    margin: 0px;
+    padding: 20px;
+}
+
+main > section > h2 {
+    font-family: 'font-android', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,#84E1AD, white);
+    color: #1A5C38;
+    margin: 20px;
+}
+
+main > section > p{
+    text-indent: 30px;
+    text-align: justify;
+    margin: 20px;
+}
+
+main > section > picture {
+    display: block;
+    text-align: center;
+}
+
+main > section > p > a {
+    color: #1A5C38;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section#video{
+    background-color: #1A5C38;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+section#extra{
+    background-color: #C5EBD6;
+    margin: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+section#extra > h3{
+    background-color: #2FA866;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+ul {
+    list-style: none;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+ul li:before {
+    content: '✓';
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p {
+    margin: 0px;
+}
